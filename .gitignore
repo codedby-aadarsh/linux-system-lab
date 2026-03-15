@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But do NOT ignore directories (needed so Git can look inside them)
+!*/
+
+# Do NOT ignore your source files and the .gitignore itself
+!*.c
+!*.h
+!.gitignore
+!*.md
+
